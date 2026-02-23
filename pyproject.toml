@@ -1,0 +1,15 @@
+[project]
+name = "quantum-cfd"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "antigravity>=0.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "plotly>=6.5.2",
+    "qiskit-ionq>=1.0.2",
+    "scipy>=1.17.0",
+    "streamlit>=1.54.0",
+]
