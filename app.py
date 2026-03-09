@@ -10,13 +10,6 @@ from dotenv import load_dotenv
 from qiskit import QuantumCircuit, transpile
 from qiskit_ionq import IonQProvider
 
-# Mock antigravity import (if available, otherwise fallback)
-try:
-    import antigravity
-    HAS_ANTIGRAVITY = True
-except ImportError:
-    HAS_ANTIGRAVITY = False
-
 # Load environment variables
 load_dotenv()
 
